@@ -12,22 +12,21 @@ const Nav = () => {
 
         <ul className="outter">
           <li>
-            <Link to="./portfolio">PORTFOLIO</Link>
+            <Link style={{ textDecoration: 'none' }} to="/portfolio">PORTFOLIO</Link>
           </li>
           <li>
-            <Link to="./thoughts">THOUGTS</Link>
+            <Link style={{ textDecoration: 'none' }} to="/thoughts">THOUGTS</Link>
           </li>
 
           <ul className="inner">
-            <li>WINKLEVOSS</li>
-            <li>CAPITAL</li>
+            <Link style={{ textDecoration: 'none' }} to="/main">WINKLEVOSS <br/> CAPITAL</Link>
           </ul>
 
           <li>
-            <Link to="./about">ABOUT</Link>
+            <Link style={{ textDecoration: 'none' }} to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="./contact">CONTACT</Link>
+            <Link style={{ textDecoration: 'none' }} to="/contact">CONTACT</Link>
           </li>
         </ul>
 
