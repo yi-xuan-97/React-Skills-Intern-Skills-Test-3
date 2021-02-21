@@ -1,0 +1,17 @@
+nav{
+  min-height: 5vw;
+  background-color: bisque;
+}
+
+.outter{
+  margin-top: 0;
+  padding-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner{
+  list-style: none;
+}
