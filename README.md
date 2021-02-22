@@ -20,5 +20,11 @@ Bug:
 Main page && Thoughts page : 
 -Need to click on navbar twice to show the news.
 
+main.js 
+Page that showed up when open the site, click on "WINKLEVOSS CAPITAL" twice to let the news shows up
+
+
 Portfolio page:
--Doesn't show the gallery at the first time, need to open/close "inspect" to let the gallery shows
+-Doesn't show the gallery at the first time, need to open/close "inspect" to let the gallery shows OR simply change the size of the windows
+
+

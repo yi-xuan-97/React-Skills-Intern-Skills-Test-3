@@ -5,12 +5,13 @@ nav{
 }
 
 .outter{
-  margin-top: 0;
-  padding-top: 0;
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: larger;
 }
 
 .inner{
