@@ -61,7 +61,7 @@ const Main = () => {
         {
           article.map(p => {
             return (
-              <a href={p.rurl} id={p.author} style={{ textDecoration: 'none' }}>
+              <a className="col-md-4 col-sm-4" href={p.rurl} id={p.author} style={{ textDecoration: 'none' }}>
                 <img src={p.url} alt="can't show image" />
                 <p className="test">{p.name}</p>
               </a>

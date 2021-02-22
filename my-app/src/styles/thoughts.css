@@ -2,3 +2,16 @@ div{
   color: coral;
 }
 
+.images-wrapper {
+  display: flex;
+  letter-spacing: -4px;
+  font-size: 0;
+}
+
+.images-wrapper .col-xs-4 {
+  vertical-align: middle;
+  /* display: inline; */
+  letter-spacing: 0;
+  font-size: 14px;
+  float: none;
+}

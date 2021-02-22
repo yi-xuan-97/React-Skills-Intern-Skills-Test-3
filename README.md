@@ -12,9 +12,13 @@ https://fontawesome.com/how-to-use/on-the-web/using-with/react
 Install axios
 ### `npm install axios --save`
 
-Install react-bootstrap
-### `npm install react-bootstrap bootstrap`
+Install react-photo-gallery
+### `npm install react-photo-gallery`
+
 
 Bug:
-Main page : 
--Need to click on "WINKLEVOSS CAPITAL" twice to show the news.
+Main page && Thoughts page : 
+-Need to click on navbar twice to show the news.
+
+Portfolio page:
+-Doesn't show the gallery at the first time, need to open/close "inspect" to let the gallery shows

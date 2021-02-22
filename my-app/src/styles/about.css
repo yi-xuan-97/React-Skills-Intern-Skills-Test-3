@@ -1,4 +1,10 @@
 div{
   color: blue;
 }
+.aboutimg{
+  filter: brightness(50%);
+}
+.aboutimg:hover{
+  filter: brightness(100%);
+}
 
