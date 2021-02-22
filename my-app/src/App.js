@@ -7,23 +7,32 @@ function App() {
   return (
 
 
-      <Router>
 
-        <div>
+    <Router>
 
-          <Nav />
+      <div className="bkg">
 
+        <Nav />
+
+        <Switch>
+
+          <Route exact path="/">
+            <Redirect to="/main" />
+          </Route>
+
+          <Route path="/main" component={Main} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/main" component={Main} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/thoughts" component={Thoughts} />
 
-          <Social/>
+        </Switch>
 
-        </div>
+        <Social />
 
-      </Router>
+      </div>
+
+    </Router>
 
 
 

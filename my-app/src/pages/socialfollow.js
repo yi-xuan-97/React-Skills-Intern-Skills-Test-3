@@ -17,7 +17,9 @@ const Social = () => {
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
 
-        <a href="https://www.instagram.com/winklevosscap/">
+        <i/>
+
+        <a href="https://www.instagram.com/winklevosscap/" className="sec">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
 

@@ -5,7 +5,11 @@ const Thoughts = () => {
 
   return (
 
-    <h1>Thoughts page</h1>
+    <div>
+
+
+      <h1>Thoughts page</h1>
+    </div>
 
 
   );

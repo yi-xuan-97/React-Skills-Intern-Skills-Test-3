@@ -1,3 +1,57 @@
 div{
   color: brown;
 }
+tr{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.outtercontain{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text{
+  position: absolute;
+  font-style: oblique;
+  font-size: 5vw;
+  font-weight: 600;
+  margin-left: 9%;
+  margin-top: 10%;
+  width: 30%;
+}
+
+.reccontain{
+  background-color: white;
+  width: 45%;
+  height: 90%;
+}
+
+table{
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.t{
+  font-size: xx-large;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.soicon{
+  display: flex;
+  padding-bottom: 2%;
+}
+
+
+.se{
+  padding-top: 30%;
+  padding-bottom: 20%;
+}
+
+.thir{
+  padding-top: 20%;
+  padding-bottom: 20%;
+}

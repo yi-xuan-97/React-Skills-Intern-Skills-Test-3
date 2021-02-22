@@ -1,8 +1,12 @@
 .container{
-  position: absolute;
   padding-left: 30%;
+  background-color: #21D586;
 }
 
 .icons{
-  padding-left: 45%;
+  padding-left: 23%;
+}
+
+.sec{
+  padding-left: 8%;
 }

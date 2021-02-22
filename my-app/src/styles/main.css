@@ -1,3 +1,40 @@
-div{
-  color: darkgreen;
+table{
+  padding-left: 1%;
 }
+
+
+img{
+  padding-left: 2%;
+  /* display: "flex"; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width:45%;
+}
+
+
+.tt{
+  text-decoration: none !important;
+}
+
+a{
+  max-width: fit-content;
+  flex-direction: row;
+}
+
+.test{
+  padding-left: 2%;
+  padding-right: 0;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(8, 250, 48);
+  width: 45%;
+}
+
+.test{
+  outline-width: 0;
+}
+
+
